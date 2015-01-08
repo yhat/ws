@@ -7,7 +7,15 @@ to stdout.
 
 ### Install
 
+If you have Go installed just run:
+
     go get github.com/yhat/ws
+
+If you're on OS X use brew to install (no go required).
+
+    brew install https://raw.githubusercontent.com/yhat/ws/master/ws.rb
+
+Otherwise direct downloads are available through the [releases page](https://github.com/yhat/ws/releases).
 
 ### Usage
 

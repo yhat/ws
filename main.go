@@ -22,7 +22,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "Usage: ws <url>\n")
 		os.Exit(2)
 	}
-	ws, err := websocket.Dial(url, "", "http://localhost/")
+	ws, err := websocket.Dial(url, "", origin)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error dialing %s: %v\n", url, err)
 		os.Exit(2)

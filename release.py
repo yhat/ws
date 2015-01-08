@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+"""
+This is just a script to help automate the release of the Go binary, nothing
+to see here!
+"""
+
 import hashlib
 import os
 import re
